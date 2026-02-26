@@ -1,0 +1,8 @@
+label: q2-trackA-determinism-negative-control-random-vs-pert
+file_a: run-q2-trackA-determinism-random-seed-2026022516-pass1.txt
+file_b: run-q2-trackA-determinism-pert-seed-2026022517-pass1.txt
+sha256_a: ce974f2b6809438c97ef5c75e8e79ab9009db9e50f56d3bff50045aea475b635
+sha256_b: ef3bda4993ccc67d9113eb1dc947d029bdc7bce654bdd58610495aa3e19fd3da
+byte_identical_sha256: false
+text_identical: false
+require_identical_check: fail

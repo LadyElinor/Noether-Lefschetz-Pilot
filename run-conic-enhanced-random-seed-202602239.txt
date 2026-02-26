@@ -1,0 +1,23 @@
+=== Expanded Noether-Lefschetz quartic incidence pilot ===
+seed=202602239, samples=220, coeff_bound=2, point_bound=1, max_deterministic_lines=180, random_line_probes=80, max_conic_templates=12
+smoothness_heuristic: points_per_prime=100, primes=[5, 7]
+monomials=35, candidate_lines=260, candidate_conic_templates=12
+NOTE: incidence and smoothness checks are heuristic screens, not Picard-rank / NL-locus computations.
+NOTE: conic-template scan is intentionally incomplete; detections are template-family hits only.
+
+[special-bank checks]
+- engineered_xG3_plus_yH3: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(2, 0, 0, 0)), line_hits=11, conic_template_hits=0, contains_test_conic_xz-y2=no
+- forced_conic_(xz-y^2)Q2+wR3: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(0, 0, 0, 3)), line_hits=2, conic_template_hits=3, contains_test_conic_xz-y2=yes
+- fermat_x4+y4+z4+w4_literature_known_special: smoothness_screen=pass (no_sampled_mod_p_singular_point_detected), line_hits=0, conic_template_hits=0, contains_test_conic_xz-y2=no
+- optional_determinantal_style: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(2, 4, 0, 0)), line_hits=7, conic_template_hits=0, contains_test_conic_xz-y2=no
+
+random_total_samples=220
+smoothness_screen_pass=177
+smoothness_screen_flagged=43
+random_samples_analyzed=177
+random_samples_with_any_detected_line=1/177
+random_samples_with_any_detected_conic_template=0/177
+total_detected_line_incidents=3
+total_detected_conic_template_incidents=0
+Interpretation: detections indicate special-incidence candidates under this finite scan.
+Non-detection does not imply generic Picard rank, smoothness, or NL-genericity.

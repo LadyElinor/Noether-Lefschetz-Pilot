@@ -1,0 +1,12 @@
+label: q2-trackA-determinism-receipt-random-v3-sentinel5-min-shared-keys
+file_a: run-q2-trackA-random-v3weierstrass-sentinel5-seed-2026032012.txt
+file_b: run-q2-trackA-random-v3weierstrass-sentinel5-seed-2026032012-rerun2.txt
+sha256_a: ff67d316d4613669bf656c2e9a68306959640a0eab3281abc8f0a8e220efad00
+sha256_b: ff67d316d4613669bf656c2e9a68306959640a0eab3281abc8f0a8e220efad00
+byte_identical_sha256: true
+text_identical: true
+shared_summary_key_count: 0
+shared_summary_key_match: true
+require_min_shared_keys_check: fail
+require_min_shared_keys_expected: 1
+require_min_shared_keys_observed: 0

@@ -1,0 +1,6 @@
+﻿phase,seed,samples_total,samples_analyzed,elliptic_hits,line_hit_samples,conic_hit_samples,wilson_upper_95,notes
+calibration_pos,2026031914,2,2,2,,, ,gate_positive_pass=1
+guardrail_neg,2026031915,500,415,0,,,0.050000_threshold,gate_guardrail_pass=1
+batch_s,202603201,500,421,0,,,0.0090,initial random scaffold
+batch_m,202603202,2500,1985,0,6,0,0.0019,frozen profile
+batch_l,202603203,10000,7978,0,24,4,0.00048,frozen profile deep scan

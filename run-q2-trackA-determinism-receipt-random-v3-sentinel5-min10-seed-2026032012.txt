@@ -1,0 +1,20 @@
+﻿label: random-v3-sentinel5-rerun2-strict-min10
+file_a: run-q2-trackA-random-v3weierstrass-sentinel5-seed-2026032012.txt
+file_b: run-q2-trackA-random-v3weierstrass-sentinel5-seed-2026032012-rerun2.txt
+sha256_a: ff67d316d4613669bf656c2e9a68306959640a0eab3281abc8f0a8e220efad00
+sha256_b: ff67d316d4613669bf656c2e9a68306959640a0eab3281abc8f0a8e220efad00
+byte_identical_sha256: true
+text_identical: true
+shared_summary_key_count: 7
+shared_summary_key_match: true
+summary_keys_present:
+  - random_samples_with_any_detected_conic_template: a=0/161 | b=0/161 | match
+  - random_samples_with_any_detected_elliptic_template: a=0/161 | b=0/161 | match
+  - random_samples_with_any_detected_elliptic_v2_surrogate: a=0/161 | b=0/161 | match
+  - random_samples_with_any_detected_elliptic_v3_quadric: a=0/161 | b=0/161 | match
+  - random_samples_with_any_detected_line: a=0/161 | b=0/161 | match
+  - smoothness_screen_flagged: a=39 | b=39 | match
+  - smoothness_screen_pass: a=161 | b=161 | match
+require_min_shared_keys_check: fail
+require_min_shared_keys_expected: 10
+require_min_shared_keys_observed: 7

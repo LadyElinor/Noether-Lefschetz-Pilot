@@ -1,0 +1,8 @@
+=== van-Luijk-style perturbation test (proxy family; heuristic only) ===
+IMPORTANT: This is NOT van Luijk's exact published polynomial.
+This mode uses a local proxy baseline quartic and integer-coefficient noise perturbations.
+seed=202602240, trials=180, noise_bound=1, candidate_lines=259, candidate_conic_templates=12
+base_label=proxy_baseline_not_van_luijk_exact
+base_smoothness_screen=pass (no_sampled_mod_p_singular_point_detected), base_line_hits=0, base_conic_template_hits=0
+perturbed_smooth_pass=148/180, perturbed_line_detected=2/148, perturbed_line_incidents=3, perturbed_conic_template_detected=0/148, perturbed_conic_template_incidents=0
+Interpretation: proxy-family stability signal under this finite scan only.

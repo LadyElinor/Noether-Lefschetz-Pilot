@@ -1,0 +1,38 @@
+﻿=== Expanded Noether-Lefschetz quartic incidence pilot ===
+seed=2026032012, samples=200, coeff_bound=2, point_bound=1, max_deterministic_lines=180, random_line_probes=80, max_conic_templates=96, max_elliptic_templates=30, max_quadric_templates=20, elliptic_probe_mode=v3-weierstrass, elliptic_v2_cross_prime_count=3, elliptic_v2_min_rootcount=3, v3_prime_sample=31, v3_min_points=15
+smoothness_heuristic: points_per_prime=160, primes=[5, 7, 11, 13, 17, 19]
+monomials=35, candidate_lines=257, candidate_conic_templates=96, candidate_elliptic_templates=30, candidate_quadric_templates=20
+NOTE: incidence and smoothness checks are heuristic screens, not Picard-rank / NL-locus computations.
+NOTE: conic-template scan is intentionally incomplete; detections are template-family hits only.
+NOTE: elliptic-template scan is a minimal surrogate path; detections are heuristic template incidents only.
+
+[special-bank checks]
+- engineered_xG3_plus_yH3: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(3, 0, 0, 0)), line_hits=17, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- forced_conic_(xz-y^2)Q2+wR3: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(0, 1, 0, 1)), line_hits=2, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=yes, structural_marker=none
+- fermat_x4+y4+z4+w4_literature_known_special: smoothness_screen=pass (no_sampled_mod_p_singular_point_detected), line_hits=0, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- engineered_elliptic_ci_q1q2_mix_a: smoothness_screen=flag (flagged_possible_singularity_mod_7_at_(0, 0, 0, 4)), line_hits=4, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- engineered_elliptic_ci_q1q2_mix_b: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(0, 1, 0, 2)), line_hits=6, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- engineered_elliptic_forced_factor_proxy: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(2, 2, 2, 2)), line_hits=4, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- engineered_elliptic_square_proxy_a: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(4, 2, 2, 3)), line_hits=4, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- engineered_elliptic_square_proxy_b: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(1, 3, 1, 0)), line_hits=4, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=none
+- explicit_elliptic_weierstrass_plane_a-1_b0_L1111: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(2, 2, 4, 2)), line_hits=20, conic_template_hits=0, elliptic_template_hits=1, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=explicit_elliptic_quartic_weierstrass
+- explicit_elliptic_weierstrass_plane_a-2_b3_L1111: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(0, 2, 0, 3)), line_hits=13, conic_template_hits=0, elliptic_template_hits=1, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=no, structural_marker=explicit_elliptic_quartic_weierstrass
+- engineered_double_quadric_L1L2Q1_plus_L3L4Q2: smoothness_screen=flag (flagged_possible_singularity_mod_5_at_(0, 0, 0, 2)), line_hits=12, conic_template_hits=0, elliptic_template_hits=0, v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}, contains_test_conic_xz-y2=yes, structural_marker=double_quadric_fixture
+
+random_total_samples=200
+smoothness_screen_pass=161
+smoothness_screen_flagged=39
+random_samples_analyzed=161
+random_samples_with_any_detected_line=0/161
+random_samples_with_any_detected_conic_template=0/161
+random_samples_with_any_detected_elliptic_template=0/161
+random_samples_with_any_detected_elliptic_v2_surrogate=0/161
+random_samples_with_any_detected_elliptic_v3_quadric=0/161
+v3_tier_breakdown={'tier1': 0, 'tier2': 0, 'tier3': 0}
+total_detected_line_incidents=0
+total_detected_conic_template_incidents=0
+total_detected_elliptic_template_incidents=0
+total_detected_elliptic_v2_surrogate_incidents=0
+total_detected_elliptic_v3_quadric_incidents=0
+Interpretation: detections indicate special-incidence candidates under this finite scan.
+Non-detection does not imply generic Picard rank, smoothness, or NL-genericity.
