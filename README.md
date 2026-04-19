@@ -10,6 +10,10 @@ It does **not** compute:
 
 All outputs are screening signals only.
 
+## Orientation
+- `pilot-index.md` — canonical reading order and file-role map.
+- `pilot-status.md` — current/frozen/experimental status spine.
+
 ## Script
 - `nl_quartic_line_sampling.py`
 - Python stdlib only.
